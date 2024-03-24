@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="d-block d-lg-none">
-            <Flicking :options="{ align: 'center', circular: true }" :plugins="plugins">
+            <Flicking :options="{ circular: true }" :plugins="plugins">
                 <div class="panel">
                     <img src="../assets/images/a/รูประแนง 8.jpg" alt="" class="img-fluid">
                     <p class="text-center caption fs-3">ระแนง</p>
