@@ -38,7 +38,7 @@ const plugins = [
             </div>
         </div>
         <div class="d-block d-lg-none">
-            <Flicking ref="products" :options="options" :plugins="plugins" >
+            <Flicking ref="products" :options="options" >
                 <div class="card-panel panel our-product">
                     <img src="../assets/images/a/รูประแนง 8.jpg" alt="" class="img-fluid">
                     <p class="text-center caption fs-3">ระแนง</p>
@@ -63,11 +63,11 @@ const plugins = [
 
 <style>
 .panel img {
-    max-width: 250px;
     object-fit: cover;
 }
 
 .panel {
+    max-width: 350px;
     margin: 0 .5rem;
 
 }

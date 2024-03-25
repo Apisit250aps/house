@@ -6,7 +6,7 @@ import { AutoPlay } from "@egjs/flicking-plugins";
 
 const options = {
     circular: true,
-    align: 'prev',
+    align: 'center',
     horizontal: true,
 }
 
@@ -81,7 +81,7 @@ const options = {
 
 .our-works img {
     object-fit: cover;
-    max-width: 250px;
+    max-width: 350px;
 
     /* margin: 0 .15rem; */
 }
