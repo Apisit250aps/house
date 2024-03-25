@@ -4,7 +4,7 @@
             <a class="d-flex align-items-center nav-link" href="/">
                 <img src="/src/assets/images/contact/logo.png" alt="" srcset="" class="img-fluid d-block" id="logo">
                 <span class="fs-2 fw-normal d-none d-lg-inline-flex">ช.แทค รับติดตั้งระแนงกันสาด</span>
-                <span class="fs-4 fw-normal">ช.แทค รับติดตั้งระแนงกันสาด</span>
+                <span class="fs-4 fw-normal d-lg-none d-inline-flex">ช.แทค รับติดตั้งระแนงกันสาด</span>
             </a>
         </div>
     </nav>
