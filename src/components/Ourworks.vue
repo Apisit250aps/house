@@ -2,17 +2,14 @@
 
 
 import  Flicking  from "@egjs/vue3-flicking";
-import { Perspective } from "@egjs/flicking-plugins";
-
+import { AutoPlay } from "@egjs/flicking-plugins";
 
 const options = {
     circular: true,
-    align: 'center',
+    align: 'prev',
     horizontal: true,
 }
-const plugins = [
-    new Perspective({  rotate: 0 }),
-]
+
 </script>
 
 <template>
@@ -25,7 +22,7 @@ const plugins = [
             </h4>
         </div>
         <h2 class="text-center primary-text my-3">Our Works</h2>
-        <Flicking ref="works" :options="options" :plugins="plugins">
+        <Flicking ref="works" :options="options" :plugins="[new AutoPlay({ duration: 2000 })]">
             <div class="our-works panel card-panel">
                 <img src="../assets/images/a/ก่อสร้างบ้าน 1.jpg" alt="" class=" img-fluid">
             </div>
@@ -81,6 +78,7 @@ const plugins = [
     /* max-width: 20rem;
     max-height: 30rem; */
 }
+
 .our-works img {
     object-fit: cover;
     max-width: 250px;

@@ -1,7 +1,7 @@
 
 <script setup>
 import Flicking from "@egjs/vue3-flicking";
-import { Perspective } from "@egjs/flicking-plugins";
+import { AutoPlay } from "@egjs/flicking-plugins";
 
 const options = {
     circular: true,
@@ -9,7 +9,7 @@ const options = {
     horizontal: true,
 }
 const plugins = [
-    new Perspective({ rotate: 0 }),
+    new AutoPlay({ duration: 2000 }),
     
 ]
 
