@@ -2,10 +2,7 @@
     <section class="container my-5">
         <div class="row row-cols-1 row-cols-lg-2 mx-auto">
             <div class="col">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3872.663889135458!2d100.66149107591167!3d13.919027493398222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zMjg4IOC4i-C4reC4oiDguKrguLLguKLguYTguKvguKEgMTUvMTI4OC8zMSDguJbguJnguJnguKrguLLguKLguYTguKvguKEg4LmB4LiC4Lin4LiH4Liq4Liy4Lii4LmE4Lir4LihIOC5gOC4guC4leC4quC4suC4ouC5hOC4q-C4oSDguIHguKPguLjguIfguYDguJfguJ7guKHguKvguLLguJnguITguKMgMTAyMjA!5e0!3m2!1sth!2sth!4v1711287340814!5m2!1sth!2sth"
-                    style="border:0;" allowfullscreen="" loading="lazy" class="w-100 h-100" 
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.1259444562936!2d100.67781428304049!3d13.919411141386762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d7c5a4eb333f5%3A0x5c26e395fcdb9d2a!2zUksgUGFyayDguYHguILguKfguIfguKrguLLguKLguYTguKvguKEg4LmA4LiC4LiV4Liq4Liy4Lii4LmE4Lir4LihIOC4geC4o-C4uOC4h-C5gOC4l-C4nuC4oeC4q-C4suC4meC4hOC4oyAxMDIyMA!5e0!3m2!1sth!2sth!4v1711440915959!5m2!1sth!2sth" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100 h-100"></iframe>
             </div>
             <div class="col">
                 <div class="d-flex align-items-center w-100 flex-column">

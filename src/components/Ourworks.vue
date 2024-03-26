@@ -8,6 +8,8 @@ const options = {
     circular: true,
     align: 'center',
     horizontal: true,
+    circularFallback: "bound",
+    
 }
 
 </script>
@@ -22,7 +24,7 @@ const options = {
             </h4>
         </div>
         <h2 class="text-center primary-text my-3">Our Works</h2>
-        <Flicking ref="works" :options="options" :plugins="[new AutoPlay({ duration: 2000 })]">
+        <Flicking ref="works" :options="options" :plugins="[ new AutoPlay({ duration: 2000 }) ]">
             <div class="our-works panel card-panel">
                 <img src="../assets/images/a/ก่อสร้างบ้าน 1.jpg" alt="" class=" img-fluid">
             </div>
@@ -75,14 +77,17 @@ const options = {
 <style>
 .our-works {
     position: relative;
+    max-width: 350px;
+    max-height: 350px;
     /* max-width: 20rem;
     max-height: 30rem; */
 }
 
 .our-works img {
     object-fit: cover;
-    max-width: 350px;
+    /* max-width: 350px; */
 
     /* margin: 0 .15rem; */
+    width: 350px
 }
 </style>
